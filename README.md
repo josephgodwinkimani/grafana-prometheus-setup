@@ -10,6 +10,8 @@
 ## Install Prometheus LTS version only
 
 ```bash
+# checking used ports first
+$ ss -ltn
 # creating Prometheus System Users and Directory
 $ useradd --no-create-home --shell /bin/false prometheus && useradd --no-create-home --shell /bin/false node_exporter
 $ mkdir /etc/prometheus
