@@ -170,6 +170,9 @@ $ nano /etc/grafana/grafana.ini
 #
 # The HTTP port  to use
 ;http_port = 1024 #3000
+# Do the same in the following files:
+$ nano /usr/share/grafana/conf/defaults.ini
+$ nano /usr/share/grafana/conf/sample.ini
 ```
 
 Start the server with init.d
