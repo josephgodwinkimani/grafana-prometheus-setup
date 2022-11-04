@@ -1,8 +1,6 @@
-![intro-image](https://raw.githubusercontent.com/ghatechteam/system-monitor-toolkit/main/image.jpeg?token=GHSAT0AAAAAAB2YD4UDZECHE7HMCLX6U2Q2Y3FGFDQ)
+![intro-image](https://raw.githubusercontent.com/prometheus/prometheus/main/documentation/images/prometheus-logo.svg)
 
 > Prometheus reliable solution for monitoring, scraping metrics over http from instrumented jobs and alerting of highly dynamic service-oriented architectures
-
-> 
 
 ## Prerequisites
 
@@ -128,6 +126,11 @@ $ nano prometheus.yml
      
 # restart the service
 $ systemctl restart prometheus
+```
+
+![grafana-image](https://raw.githubusercontent.com/grafana/grafana/main/docs/logo-horizontal.png)
+
+> Grafana allows you to query, visualize, alert on, and explore your metrics, logs, and traces wherever they are stored on your server
 
 ## Install Grafana
 
@@ -180,3 +183,5 @@ $ update-rc.d grafana-server defaults
 ## Configure Prometheus as Grafana DataSource
 
 Once you logged into Grafana Now first Navigate to **Settings Icon** ->> **Configuration** ->> **data sources**
+
+
